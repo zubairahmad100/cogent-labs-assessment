@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cogent Labs Assessment</title>
+    <link rel="icon" href="./assets/imgs/footer_logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets//css/style.css" />
+  </head>
+  <body>
+    <header class="header_main">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="d-flex align-items-center gap-120">
+            <a href="/">
+              <img
+                src="./assets/imgs/udix.svg"
+                alt="logo"
+                class="header_logo"
+              />
+            </a>
+            <ul class="d-flex align-items-center gap-50 nav_menu">
+              <li class="header_menu_item">
+                <a href="/" class="active">Home</a>
+              </li>
+              <li class="header_menu_item">
+                <a href="/blog">BLOG</a>
+              </li>
+              <li class="header_menu_item">
+                <a href="/product">PRODUCT</a>
+              </li>
+              <li class="header_menu_item">
+                <a href="/contacts">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <!-- ------------- -->
+          <div class="d-flex align-items-center gap-40 button_wrapper">
+            <button class="sign_in_btn">Sign In</button>
+            <button class="secondary">Sign up</button>
+          </div>
+          <button
+            class="secondary menu_btn d-none"
+            onclick="toggleDrawer()"
+            id="drawerToggleBtn"
+          >
+            Menu
+          </button>
+          <div id="drawer" class="drawer">
+            <ul class="d-flex gap-20 flex-col">
+              <li class="header_menu_item">
+                <a href="/" class="active">Home</a>
+              </li>
+              <li class="header_menu_item">
+                <a href="/blog">BLOG</a>
+              </li>
+              <li class="header_menu_item">
+                <a href="/product">PRODUCT</a>
+              </li>
+              <li class="header_menu_item">
+                <a href="/contacts">Contacts</a>
+              </li>
+              <li class="header_menu_item">
+                <a href="/">
+                  <button class="sign_in_btn">Sign In</button>
+                </a>
+              </li>
+              <li class="header_menu_item">
+                <a href="/">
+                  <button class="secondary">Sign up</button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section_wrapper">
+        <div class="container">
+          <div class="banner_wrapper">
+            <h1 class="title">
+              Get It Together And Manage Projects The Right Way.
+            </h1>
+            <p class="description">
+              udix is the world’s first smart workspace. We bring all your
+              team’s content together while letting you use the tools you love.
+            </p>
+            <div
+              class="d-flex align-items-center gap-24 search_wrapper justify-content-center"
+            >
+              <input type="search" class="input" placeholder="Email" />
+              <button class="primary">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ---------------business-solutions -->
+      <section class="section_wrapper">
+        <div class="container">
+          <div class="business_wrapper">
+            <h2 class="title">
+              Solutions that will change your business forever
+            </h2>
+            <p class="description">
+              Some networks believe that by only offering a basic tracking
+              system their affiliates can reach a high level of creativity. We
+              like to set the bar a lot higher by offering you cutting-edge tech
+              solutions together with a team of creative experts.
+            </p>
+          </div>
+
+          <!-- ----------grid -->
+          <div class="grid grid-cols-3 gap-75 cards_wrapper">
+            <!-- ---------------card -->
+            <div class="service_card active">
+              <img src="./assets/imgs/web.svg" alt="web-services" />
+              <h5 class="heading">Web Services</h5>
+              <p class="short_desc">
+                Some networks believe that by only offering.
+              </p>
+              <img src="./assets/imgs/white_arrow.svg" alt="arrow" />
+            </div>
+            <!-- ---------------card2 -->
+            <div class="service_card">
+              <img src="./assets/imgs/crm.svg" alt="crm-services" />
+              <h5 class="heading">CRM Product</h5>
+              <p class="short_desc">
+                Some networks believe that by only offering.
+              </p>
+              <img src="./assets/imgs/arrow-right-5.svg" alt="arrow" />
+            </div>
+            <!-- ---------------card3 -->
+            <div class="service_card">
+              <img src="./assets/imgs/smartphone.svg" alt="phone" />
+              <h5 class="heading">Mobile App</h5>
+              <p class="short_desc">
+                Some networks believe that by only offering.
+              </p>
+              <img src="./assets/imgs/arrow-right-5.svg" alt="arrow" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- --------------------signuop_ -->
+      <section class="section_wrapper">
+        <div class="signup_with_bg">
+          <div class="wrapper">
+            <div
+              class="d-flex align-items-center justify-content-between gap-40 info"
+            >
+              <div class="text-center">
+                <h6 class="title">1,000 M</h6>
+                <p class="description">Clicks annually through system</p>
+              </div>
+              <div class="text-center">
+                <h6 class="title">4.8 M</h6>
+                <p class="description">Relationships created annually</p>
+              </div>
+              <div class="text-center">
+                <h6 class="title">100 +</h6>
+                <p class="description">Advertisers with udix</p>
+              </div>
+            </div>
+            <button class="primary mx-auto d-block">Sign up now!</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------------------------------creativity_section -->
+      <section class="creativity_section">
+        <div class="creativity_wrapper">
+          <img
+            src="./assets/imgs/creativity.svg"
+            alt="creativity"
+            class="w-100"
+          />
+          <div>
+            <div class="mb-60 md-mb-20">
+              <h4 class="title">Creativity & Technology</h4>
+              <p class="description">
+                Some networks believe that by only offering a basic tracking
+                system their affiliates can reach a high level of creativity. We
+                like to set the bar a lot higher by offering you cutting-edge
+                tech solutions together with a team of creative experts on-call
+                with the tools you need based on real-time results
+              </p>
+            </div>
+            <div class="mb-48 md-mb-24">
+              <h4 class="title mb-32">Defines our true value</h4>
+              <ul class="descriptiond desc_list">
+                <li>
+                  Some networks believe that by only offering a basic tracking
+                  system
+                </li>
+                <li>
+                  Some networks believe that by only offering a basic tracking
+                  system
+                </li>
+                <li>
+                  Some networks believe that by only offering a basic tracking
+                  system
+                </li>
+              </ul>
+            </div>
+            <button class="d-flex align-items-center gap-10">
+              <p class="text-primary font-bold">Check our solutions</p>
+              <img src="./assets/imgs/arrow-right-1.svg" alt="arrow" />
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- -----------footer -->
+    <footer class="footer_wrapper">
+      <div class="container">
+        <div
+          class="d-flex align-items-center justify-content-between md-flex-col gap-20"
+        >
+          <div class="logo_wrapper">
+            <a href="/">
+              <img src="./assets/imgs/footer_logo.svg" alt="footer-logo" />
+              <p class="desc">
+                udix is a market-leading provider of digital marketing services,
+                using proprietary tools and methodologies to generate high-value
+                engagement for our customers.
+              </p>
+            </a>
+          </div>
+          <!-- ---------- -->
+          <div>
+            <div
+              class="d-flex align-items-center gap-40 mb-37 flex-wrap justify-content-center md-flex-col"
+            >
+              <ul class="d-flex align-items-center gap-50 nav_menu">
+                <li class="header_menu_item">
+                  <a href="/" class="">Home</a>
+                </li>
+                <li class="header_menu_item">
+                  <a href="/blog">BLOG</a>
+                </li>
+                <li class="header_menu_item">
+                  <a href="/product">PRODUCT</a>
+                </li>
+                <li class="header_menu_item">
+                  <a href="/contacts">Contacts</a>
+                </li>
+              </ul>
+              <div class="d-flex align-items-center gap-40 button_wrapper">
+                <button class="sign_in_btn">Sign In</button>
+                <button class="secondary">Sign up</button>
+              </div>
+            </div>
+            <div
+              class="d-flex align-items-center md-justify-content-center justify-content-end gap-30"
+            >
+              <a href="#">
+                <img src="./assets/imgs/fb.svg" alt="fb" />
+              </a>
+              <a href="#">
+                <img src="./assets/imgs/yt.svg" alt="yt" />
+              </a>
+              <a href="#">
+                <img src="./assets/imgs/linkedin-2.svg" alt="linkedin" />
+              </a>
+              <a href="#">
+                <img src="./assets/imgs/google-plus.svg" alt="google" />
+              </a>
+              <a href="#">
+                <img src="./assets/imgs/skype.svg" alt="skype" />
+              </a>
+            </div>
+          </div>
+          <!-- ---------- -->
+          <p class="secondary_desc d-none">
+            udix is a market-leading provider of digital marketing services,
+            using proprietary tools and methodologies to generate high-value
+            engagement for our customers.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
