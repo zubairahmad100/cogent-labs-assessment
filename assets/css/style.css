@@ -224,7 +224,7 @@ button.secondary:hover {
 /* --------------signup_with_bg */
 
 .signup_with_bg {
-  background-image: url("../imgs/signup_with_bg.svg");
+  background-image: url("../imgs/signup_with_bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -485,7 +485,7 @@ button.secondary:hover {
     margin-bottom: 24px;
   }
   .signup_with_bg {
-    background: url("../imgs/mobile_bg.svg");
+    background: url("../imgs/mobile_bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
